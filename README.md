@@ -1,0 +1,1 @@
+Replicando a pagina home do site Spotify utilizando os conhecimentos de HTML e CSS, além disso, fazendo uso do framework Bootstrap.
