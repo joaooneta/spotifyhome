@@ -47,23 +47,28 @@ body{
     padding: 10px 20px;
 }
 
-.btn-purple{
+.btn-roxo{
     background: #7c25f8;
 }
 
-.btn-purple:hover{
+.btn-roxo:hover{
     background: #6207e3;
     color: white;
 }
 
-.btn-white{
+.btn-branco{
     border: 2px solid white;
 }
 
-.btn-white:hover{
+.btn-branco:hover{
     background-color: white;
     color: black;
 }
+
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+
 
 /* Conteúdos */
 .caixa{
@@ -162,6 +167,11 @@ h3{
     .btn-custom{
         margin: 10px 15px;
     }
+
+    footer ul li{
+        float: left;
+        margin: 5px;
+    }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -172,6 +182,11 @@ h3{
 
     .btn-custom{
         margin: 10px 15px;
+    }
+    
+    footer ul li{
+        float: left;
+        margin: 5px;
     }
 }
 
