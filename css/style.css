@@ -1,5 +1,7 @@
+/* Layout */
 html, body, #home{
     height: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -10,13 +12,31 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    font-weight: 900;
-    letter-spacing: -0.05em;
-    margin-bottom: 50px;
-    color: white;
+/* Barra de navegação */
+#navbar-transparente{
+    background: rgba(0, 0, 0, 0.6);
 }
 
+.navbar-light .navbar-nav .nav-link{
+    color:white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 10px 15px;
+}
+
+/* Capa */
 .btn-custom{
     color: white;
     border-radius: 500px;
@@ -45,33 +65,63 @@ h1{
     color: black;
 }
 
-#navbar-transparente{
-    background: rgba(0, 0, 0, 0.6);
+/* Conteúdos */
+.caixa{
+    padding: 20px 20px;
 }
 
-.navbar-light .navbar-nav .nav-link{
-    color:white;
+#servicos{
+    background-color: white;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
-    color:#9bf0e1;
+#servicos h2, h3{
+    color: #7c25f8;
 }
 
-.navbar-light .navbar-toggler {
-    color: rgb(255, 255, 255);
-    border-color: rgb(255, 255, 255);
+#servicos p{
+    color: black;
 }
 
-.divisor{
-    width: 1px;
-    background: white;
-    margin: 10px 15px;
+#recursos h2, p{
+    color: white;
+}
+
+#recursos h3{
+    color: #9bf0e1;
 }
 
 .apresentacao{
     text-align: center;
 }
 
+.rotacionar{
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+/* Tipografia */
+h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04 em;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04 em;
+}
+
+/* Media queries */
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     h1{
